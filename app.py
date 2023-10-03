@@ -4,6 +4,9 @@ import pandas as pd
 import sklearn
 import numpy as np
 import nltk
+
+nltk.download('wordnet')
+nltk.download('punkt')
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
 
