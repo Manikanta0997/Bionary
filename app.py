@@ -6,6 +6,7 @@ import numpy as np
 import nltk
 nltk.download('wordnet')
 nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.corpus import stopwords
 
